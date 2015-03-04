@@ -12,12 +12,12 @@ public class TestCostumer {
 	private Costumer costumer = new Costumer();
 
 	@Test
-	public void shouldGiveAnStar() throws Exception {
+	public void shouldKnowIfIsBasicCostumer() throws Exception {
 		assertEquals(CostumerType.BASIC, costumer.getStatus());
 	}
 	
 	@Test
-  public void shouldGain() throws Exception {
+  public void shouldKnowIfCostumerIsNewbie() throws Exception {
     assertTrue(costumer.isNewbie());
   }
 	
