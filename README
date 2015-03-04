@@ -1,0 +1,5 @@
+* Costumer starts in BASIC plan
+* As a attender I want to know if he is a newbie   
+* As he purchase product he gain a star
+* He can only gain one star by purchase
+* If user has 5 stars or more become PLUS
