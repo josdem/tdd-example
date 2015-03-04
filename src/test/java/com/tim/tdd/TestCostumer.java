@@ -9,7 +9,7 @@ import com.tim.tdd.bean.CostumerType;
 public class TestCostumer {
 
 	@Test
-	public void shouldGiveAnStar() throws Exception {
+	public void shouldKnowIfIsBasicCostumer() throws Exception {
 		Costumer costumer = new Costumer();
 		assertEquals(CostumerType.BASIC, costumer.getStatus());
 	}
