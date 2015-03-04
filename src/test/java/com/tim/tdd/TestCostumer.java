@@ -28,5 +28,16 @@ public class TestCostumer {
 		costumer.addStar();
 		assertFalse(costumer.isNewbie());
 	}
+	
+	@Test
+  public void shouldBecomePlus() throws Exception {
+      assertEquals(CostumerType.BASIC, costumer.getStatus());
+      costumer.addStar();
+      costumer.addStar();
+      costumer.addStar();
+      costumer.addStar();
+      costumer.addStar();
+      assertEquals(CostumerType.PLUS, costumer.getStatus());
+  }
 
 }

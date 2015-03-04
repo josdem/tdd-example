@@ -7,7 +7,7 @@ public class Costumer {
 	private Integer stars = 0;
 
 	public CostumerType getStatus() {
-		return CostumerType.BASIC;
+		return stars >=5 ? CostumerType.PLUS : CostumerType.BASIC;
 	}
 
 	public Boolean isNewbie() {
