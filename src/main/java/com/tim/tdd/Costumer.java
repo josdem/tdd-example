@@ -8,4 +8,8 @@ public class Costumer {
 		return CostumerType.BASIC;
 	}
 
+	public Boolean isNewbie() {
+		return true;
+	}
+
 }
